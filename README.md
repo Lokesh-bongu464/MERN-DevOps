@@ -48,7 +48,7 @@ Here is what you need to be able to run this application.
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/<your-username>/MERN-DevOps.git
+   git clone https://github.com/Lokesh-bongu464/MERN-DevOps.git
    ```
 
 2. Go to the project folder

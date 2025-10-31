@@ -1,14 +1,18 @@
 {
   "name": "api-jokes",
   "version": "1.0.0",
-  "description": "",
+  "description": "MERN DevOps - Jokes API",
   "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lokesh-bongu464/MERN-DevOps.git"
+  },
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Lokesh Bongu",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
