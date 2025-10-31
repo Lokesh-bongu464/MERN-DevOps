@@ -1,3 +1,4 @@
+# Kubernetes Dashboard Admin User Configuration
 apiVersion: v1
 kind: ServiceAccount
 metadata:
