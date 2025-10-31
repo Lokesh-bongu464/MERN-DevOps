@@ -34,7 +34,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Here is what you need to be able to run Cal.com.
+Here is what you need to be able to run this application.
 
 - Node.js (Version: >=18.x)
 - Git
@@ -45,16 +45,16 @@ Here is what you need to be able to run Cal.com.
 
 ### Setup
 
-1. Clone the repo into a public GitHub repository (or fork <https://github.com/sayande2002/refhired.com/fork>). If you plan to distribute the code, keep the source code public to comply with [AGPLv3](https://github.com/sayande2002/refhired.com/blob/main/LICENSE).
+1. Clone the repo
 
    ```sh
-   git clone https://github.com/sayande2002/refhired.com
+   git clone https://github.com/<your-username>/MERN-DevOps.git
    ```
 
 2. Go to the project folder
 
    ```sh
-   cd refhired.com
+   cd MERN-DevOps
    ```
 
 3. Install packages with yarn
@@ -63,28 +63,25 @@ Here is what you need to be able to run Cal.com.
    yarn
    ```
 
-4. Set up your `.env` file
+4. Set up your `.env` file (if applicable)
 
-   - Duplicate `.env.example` to `.env`
-   - Use `openssl rand -base64 32` to generate a key and add it under `NEXTAUTH_SECRET` in the `.env` file.
+   - Duplicate `.env.example` to `.env` if it exists
+   - Configure your environment variables as needed
 
-5. Quick start with `yarn dx`
-   This will run the docker compose file in the root directory from the docker image build from @refhired.com/web on `http://localhost:3000/` and docker image build from @refhired.com/prisma (database) on `http://localhost:5432/` and adminar on `http://localhost:8080/`
+5. Quick start with Docker (if using Docker)
 
-> - **Requires Docker and Docker Compose to be installed**
+   ```sh
+   docker-compose up
+   ```
 
-```sh
-yarn dx
-```
-
-6. Once your server has started, go to this url `http://localhost:3000/` and you will see the website running on a Development Server.
+6. Access the application at `http://localhost:3000/`
 
 ### License
 
--[MIT license](LICENSE)
+MIT license
 
 ### Contact 📬
 
-For any query, email <sayandeten@gmail.com>.
+For any queries, feel free to reach out.
 
 Thanks!
